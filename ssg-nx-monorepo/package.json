@@ -22,6 +22,8 @@
     "@nrwl/web": "15.5.2",
     "@nrwl/workspace": "15.5.2",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "@rollup/plugin-url": "^7.0.0",
+    "@svgr/rollup": "^6.1.2",
     "@svgr/webpack": "^6.1.2",
     "@testing-library/react": "13.4.0",
     "@types/jest": "28.1.1",
