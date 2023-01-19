@@ -2,14 +2,15 @@
 import styles from './app.module.scss';
 import NxWelcome from './nx-welcome';
 import { Banner } from '@ssg-nx-monorepo/common-ui';
+import { AsFirstApp } from '@ssg-nx-monorepo/common-ui';
 
 export function App() {
   return (
     <>
       <NxWelcome title="admin" />
       <div />
+      <AsFirstApp />
       <Banner text="Welcome to our admin app." />
-      
     </>
   );
 }

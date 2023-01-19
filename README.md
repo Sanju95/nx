@@ -18,3 +18,10 @@ Roughly following the code generation tutorial from nx.dev: https://nx.dev/react
 ✔ Default stylesheet format · scss
 
 ✔ Enable distributed caching to make your CI faster · Yes
+
+- create a new app: `npx nx g @nrwl/react:app {appNAME}` 
+- Create a new component in common-ui (component library) `npx nx g @nrwl/react:component banner --project=common-ui --export`
+
+- scss is already modularised by default
+- Dependency graphs (`npx nx graph`)
+-- The Project Graph is more than just a visualization - Nx provides tooling to optimize your task-running and even automate your CI based on this graph. This will be covered in more detail in: 4: Workspace Optimization.
