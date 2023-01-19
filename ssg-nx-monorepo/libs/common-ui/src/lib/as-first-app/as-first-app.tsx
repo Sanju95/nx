@@ -6,7 +6,7 @@ export interface AsFirstAppProps {}
 export function AsFirstApp(props: AsFirstAppProps) {
   return (
     <div className={styles['container']}>
-      <h1>Welcome to AsFirstApp!</h1>
+      <h2>Welcome to AsFirstApp!</h2>
     </div>
   );
 }
